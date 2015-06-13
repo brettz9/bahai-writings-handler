@@ -12,10 +12,10 @@
     var uri = parse_url(window.location.href),
         base = uri.host + (uri.port ? ':' + uri.port : '');
 
-    DefaultHref({ // CONFIGURATION OBJECT FOR DATA-DEFAULT-HREF SUPPORT
+    var dh = DefaultHref({ // CONFIGURATION OBJECT FOR DATA-DEFAULT-HREF SUPPORT
         scheme : 'web+bahaiwritings',
         name : "Bahá'í Writings Access Protocol",
-        handler_url : 'http://www.bahai-library.com/test-bahai-web-protocol/index.php?q=%s',
+        handler_url : 'http://bahai-library.com/test-bahai-web-protocol/index.php?q=%s',
         not_supported_message : 
             "Your browser does not support protocol registration, something which we would use to "+
             "allow you to make your own choice about which website you would wish to use to visit "+
@@ -29,13 +29,16 @@
         fallbacks : {
             abl: [
                 {"Bah\u00e1'\u00ed Reference Library" : "http://reference.bahai.org/en/t/ab/ABL/abl-4.html#pg22"}, 
-                {"Bah\u00e1'\u00ed Library Online": "http://www.bahai-library.com/writings/abdulbaha/abl/abdulbahalondon.html#22"}
+                {"Bah\u00e1'\u00ed Library Online": "http://bahai-library.com/writings/abdulbaha/abl/abdulbahalondon.html#22"}
             ],
             ka: [
                 {"Bah\u00e1'\u00ed Reference Library" : "http://reference.bahai.org/en/t/b/KA/ka-4.html#gr15"},
                 {"Bah\u00e1'\u00ed Library Online" : "http://bahai-library.com/writings/bahaullah/aqdas/kaall.html#par15"}
             ]
         }
+    });
+    window.addEventListener('DOMContentLoaded', function () {
+        dh.addRegisterListener(document.querySelector('#addRegisterListener'), 'click');
     });
 
     /* Todos: 
@@ -55,15 +58,17 @@
   
   <p>The following link directly (and only) using the <code>web+bahaiwritings</code> protocol.</p>
   <ul>
-      <li>Kitáb-i-Aqdas, par. <a href="web+bahaiwritings:ka:15">15</a></li>
-      <li>'Abdu'l-Bahá in London, p. <a href="web+bahaiwritings:abl-pg:22">22</a></li>
+      <li>Kitáb-i-Aqdas, par. <a href="web+bahaiwritings:en:ka:15">15</a></li>
+      <li>'Abdu'l-Bahá in London, p. <a href="web+bahaiwritings:en:abl:22">22</a></li>
   </ul>
   
   <p>With fallbacks for older browsers (and right-click option for alternative explicit choices):</p>
   <ul>
-      <li>Kitáb-i-Aqdas, par. <a data-default-href="web+bahaiwritings:ka:15" href="http://bahai-library.com/writings/bahaullah/aqdas/kaall.html#par15" data-context-key="ka">15</a></li>
-      <li>'Abdu'l-Bahá in London, p. <a data-default-href="web+bahaiwritings:abl-pg:22" href="http://www.bahai-library.com/writings/abdulbaha/abl/abdulbahalondon.html#22" data-context-key="abl">22</a></li>
+      <li>Kitáb-i-Aqdas, par. <a data-default-href="web+bahaiwritings:en:ka:15" href="http://bahai-library.com/writings/bahaullah/aqdas/kaall.html#par15" data-context-key="ka">15</a></li>
+      <li>'Abdu'l-Bahá in London, p. <a data-default-href="web+bahaiwritings:en:abl:22" href="http://bahai-library.com/writings/abdulbaha/abl/abdulbahalondon.html#22" data-context-key="abl">22</a></li>
   </ul>
+  
+  <button id="addRegisterListener">Register protocol handler</button>
    
 </body>
 </html>

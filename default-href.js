@@ -124,7 +124,7 @@ function DefaultHref (protocolConfig, dhc) {
 
     // Object-wide preference defaulting
     this.fallbacks = dhc.fallbacks || {};
-    this.addDefaultHrefHandler = dhc.addDefaultHrefHandler || true;
+    this.addDefaultHrefHandler = typeof dhc.addDefaultHrefHandler === 'undefined' ? true : dhc.addDefaultHrefHandler;
     this.menuitemName = dhc.menuitem || 'menuitem'; // might take "command" if supported later in other browsers
     
     if (protocolConfig.scheme) {
