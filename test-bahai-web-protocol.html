@@ -16,6 +16,7 @@
         scheme : 'web+bahaiwritings',
         name : "Bahá'í Writings Access Protocol",
         handler_url : 'http://bahai-library.com/test-bahai-web-protocol/index.php?q=%s',
+        redirectIfNotSupported: false,
         test_handler_url: 'http://bahai-library.com/test-bahai-web-protocol/test-bahai-web-protocol.html',
         not_supported_message : 
             "Your browser does not support protocol registration, something which we would use to "+
@@ -26,7 +27,7 @@
             "protocol, a protocol which allows you to visit links which will direct you to "+
             "whatever Bah\u00e1'\u00ed Writings tool you prefer, so you will be redirected to "+
             "a default we have specified at bahai-library.com . You may, however, click cancel "+
-            "to stay on this page and choose the protocol suggested by this page"
+            "to stay on this page and choose the protocol suggested by this page."
         },
         {fallbacks : {
             abl: [

@@ -149,7 +149,8 @@ DefaultHref.prototype.addRegisterListener = function (node, type, handler, captu
                 this.schemeMap[this.protocolConfig.scheme] :
                 false);
         
-        handler = function () {
+        handler = function (e) {
+            _preventDefault(e);
             if (this.registerProtocolHandlerSupported(defaultHrefConfig.scheme)) { // We could just check for navigator.registerProtocolHandler but we want a chance for the handlers to run
                 this.register(
                     defaultHrefConfig.scheme, 
@@ -161,8 +162,8 @@ DefaultHref.prototype.addRegisterListener = function (node, type, handler, captu
     }
 
     _addListener(node, type, 
-        function () {
-            handler.call(that);
+        function (e) {
+            handler.call(that, e);
         }, 
         capturing
     );
@@ -302,7 +303,7 @@ DefaultHref.prototype.delegateLocation = function delegateLocation (data_default
             return;
         }
     }
-    // Allow "fall-through" (for true handleNotEnabled()) without needing to respecify this function call
+    // Allow "fall-through" (for true handleNotEnabled()) without needing to re-specify this function call
     this.successful_protocol_check(data_default_href, sm, sma, scheme, name, handler_url, test_handler_url, backupURL, false);
 };
 
@@ -311,7 +312,7 @@ DefaultHref.prototype.delegateLocation = function delegateLocation (data_default
 * Attempts to detect whether the protocol is supported, and if so, will redirect the page to it, and if not,
 *   it will redirect to a backup URL ()
 */
-DefaultHref.prototype.successful_protocol_check = function successful_protocol_check (data_default_href, sm, sma, scheme, name, handler_url, test_handler_url, backupURL) {
+DefaultHref.prototype.successful_protocol_check = function successful_protocol_check (data_default_href, sm, sma, scheme, name, handler_url, test_handler_url, backupURL, useBackupURL) {
     if (_supportMap[scheme]) {
         window.location = data_default_href;
         /*if (location != data_default_href) { // This way to check doesn't work on all browsers
@@ -323,9 +324,9 @@ DefaultHref.prototype.successful_protocol_check = function successful_protocol_c
     }
     if (_supportMap[scheme] === false) { // Note that if the user clicks ok to the browser to register a handler after success is set to false below, this line may wrongly execute
         _supportMap[scheme] = null; // If it fails once, give it a chance to be checked later without caching in
-                                    // case user enables it (yes, it will be slowerly if user keeps clicking
+                                    // case user enables it (yes, it will be slower if user keeps clicking
                                     // without approving, but that is not the expected use case
-        this.handleNotEnabled(sm, sma, scheme, name, handler_url, test_handler_url, backupURL, true);
+        this.handleNotEnabled(sm, sma, scheme, name, handler_url, test_handler_url, backupURL, useBackupURL); // last arg was true
         return;
     }
     
