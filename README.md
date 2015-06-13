@@ -1,6 +1,6 @@
 # bahai-writings-handler
 
-Custom protocol handler support for abstract links to the Baha'i Writings
+[Custom protocol handler](https://developer.mozilla.org/en-US/docs/Web-based_protocol_handlers) support for abstract links to the Baha'i Writings
 
 # To-dos
 
