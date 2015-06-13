@@ -472,10 +472,10 @@ DefaultHref.prototype.setProtocolHandler = function (protocolConfig) { // {schem
 
     this.schemeMap[scheme] = protocolConfig;
     
-    var confirms = this.schemeMap[scheme].confirms = this.schemeMap[scheme].confirms || true;
+    var confirms = this.schemeMap[scheme].confirms = typeof this.schemeMap[scheme].confirms === 'undefined' ? true : this.schemeMap[scheme].confirms;
     
     // Protocol-specific defaults
-    this.schemeMap[scheme].redirectIfNotSupported = protocolConfig.redirectIfNotSupported || true;
+    this.schemeMap[scheme].redirectIfNotSupported = typeof protocolConfig.redirectIfNotSupported === 'undefined' ? true : protocolConfig.redirectIfNotSupported;
     
     if (confirms) {
         this.schemeMap[scheme].redirectForBrowserSupport = protocolConfig.redirectForBrowserSupport || 'http://getfirefox.com/';
