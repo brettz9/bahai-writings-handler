@@ -5,8 +5,8 @@ new DefaultHref(
         scheme: 'web+bahaiwritings',
         name: "Bah\u00e1'\u00ed Writings Access Protocol",
         // autoActivationEventTriggers : ['start', 'click'],
-        handler_url: 'http://bahai-library.com/bahai-writings-handler/?q=%s',
-        test_handler_url: 'http://bahai-library.com/test-bahai-web-protocol/test-bahai-web-protocol.html',
+        handler_url: 'https://bahai-library.com/bahai-writings-handler/?q=%s',
+        test_handler_url: 'https://bahai-library.com/test-bahai-web-protocol/test-bahai-web-protocol.html',
         not_supported_message:
             "Your browser does not support protocol registration, something which we would use to "+
             "allow you to make your own choice about which website you would wish to use to visit "+
