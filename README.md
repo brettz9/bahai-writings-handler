@@ -14,3 +14,4 @@ See the [Demo](https://bahai-library.com/test-bahai-web-protocol/test-bahai-web-
 
 1. Move the abstract code into a more general purpose library and add as a
     dependency.
+2. Add a protocol redirector for https://bahai-browser.org (Chrome only)
