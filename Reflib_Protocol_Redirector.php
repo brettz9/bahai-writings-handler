@@ -8,23 +8,23 @@ class Reflib_Protocol_Redirector extends Bahai_Writings_Protocol_Redirector {
         $work = $this->work;
         $language = $this->language;
 
-        // This shows sample format, http://reference.bahai.org/reference?language=en&work=esw&pagenum=4
+        // This shows sample format, https://reference.bahai.org/reference?language=en&work=esw&pagenum=4
         // Also may utilize &action=highlight and &query=<term>
-        // http://reference.bahai.org/en/t/b/KI/ki-6.html.utf8?query=Servitude&action=highlight#gr198
-        // http://reference.bahai.org/en/t/b/KA/ka-4.html.utf8?query=laws&action=highlight#gr4
+        // https://reference.bahai.org/en/t/b/KI/ki-6.html.utf8?query=Servitude&action=highlight#gr198
+        // https://reference.bahai.org/en/t/b/KA/ka-4.html.utf8?query=laws&action=highlight#gr4
 
         if (!$this->unit) { // We let the Reflib site validate since it allows these params through internal API
             // Not present also below: esw, pb, tb; abl, fwu, pt, pup, sdc, taf, tab; adj, ba, cf, dnd, lanz, ldg1, ldg2, ma, mc (1999 ed.), mbw, pdc (already numbered in other editions but not at Reflib), ud, wob; ocf, sb (could perhaps be done as chapter numbers, but none listed at Reflib if print copy had any); bp, jwta;
-            return 'http://reference.bahai.org/reference?language='.
+            return 'https://reference.bahai.org/reference?language='.
                     $language. '&work='. $work. '&pagenum=' . $query;
         }
         if ($this->unit === 'par') { // We let the Reflib site validate since it allows these params through internal API
             // Not present also below: gdm, slh
-            return 'http://reference.bahai.org/reference?language='.
+            return 'https://reference.bahai.org/reference?language='.
                     $language. '&work='. $work. '&paragraph=' . $query;
         }
 
-        $base = 'http://reference.bahai.org/' . $language;
+        $base = 'https://reference.bahai.org/' . $language;
         // $fileno = null;
         $inc = null;
 

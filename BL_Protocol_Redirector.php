@@ -24,7 +24,7 @@ class BL_Protocol_Redirector extends Bahai_Writings_Protocol_Redirector {
     ];
 
     protected function check_match () {
-        $baseURL = 'http://bahai-library.com/';
+        $baseURL = 'https://bahai-library.com/';
 
         if (!is_array($this->map)) {
             $this->report_error(
