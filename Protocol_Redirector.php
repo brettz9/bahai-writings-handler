@@ -31,9 +31,9 @@ abstract class Protocol_Redirector {
     }
 
     protected function relocate ($url) {
-        print 'Redirecting to... ' . $url;
+        print '<meta charset="utf-8"><meta http-equiv="refresh" content="2;url=' . htmlentities($url) .  '" /> Redirecting to... ' . $url;
         //exit;
-        header('Location: ' . $url);
+        // header('Location: ' . $url);
     }
 
     protected function report_error ($msg) {
