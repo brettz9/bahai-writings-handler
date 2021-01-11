@@ -9,7 +9,15 @@ class BL_Protocol_Redirector extends Bahai_Writings_Protocol_Redirector {
             // },\{'name':'[^']*','keyword':'([^']*)','url':
             // \n\t\t\t],\n\t\t\t'$1' => [\n\t\t\t\t'page' =>
 
-            // Todo: Get 'cdb' with real page/paragraph anchors https://www.bahai.org/library/authoritative-texts/bahaullah/call-divine-beloved/5#117574345
+            // Todo: Convert this to an external JSON file, and then:
+            // 1. Use it here
+            // 2. Use it to dynamically generate our HTML page; see
+            //     https://bahai-library.com/abbreviations_bahai_writings#uses
+            // 3. Make the Chrome import page (also on bahai-library.com) use
+            //     the JSON instead of doing HTML parsing
+
+            // Todo: Get 'cdb' with real page/paragraph anchors:
+            //  https://www.bahai.org/library/authoritative-texts/bahaullah/call-divine-beloved/5#117574345
 
             'dor' => [
                 'sel' => 'https://bahai-library.com/compilation_days_remembrance#sec%s',
