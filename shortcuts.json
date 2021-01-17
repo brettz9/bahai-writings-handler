@@ -1,0 +1,438 @@
+{
+    "en": [
+        {
+            "shortcut": "b9",
+            "wiki": true,
+            "page": "https://bahai9.com/wiki/%s"
+        },
+        {
+            "shortcut": "b9s",
+            "wiki": true,
+            "page": "https://bahai9.com/index.php?search=insource%3A%s&title=Special%3ASearch&go=Go"
+        },
+        {
+            "shortcut": "bpedia",
+            "wiki": true,
+            "page": "https://bahaipedia.org/%s"
+        },
+        {
+            "shortcut": "bpedias",
+            "wiki": true,
+            "page": "https://bahaipedia.org/index.php?search=insource%3A%s&title=Special%3ASearch&fulltext=Search"
+        },
+        {
+            "shortcut": "bworks",
+            "wiki": true,
+            "page": "https://bahai.works/%s"
+        },
+        {
+            "shortcut": "bworkss",
+            "wiki": true,
+            "page": "https://bahai.works/index.php?search=insource%3A%s&title=Special%3ASearch&fulltext=Search"
+        },
+        {
+            "shortcut": "sow",
+            "search": "https://bahai.works/index.php?search=%s+prefix%3AStar_of_the_West%2F&ns0=1&ns4000=1&ns4010=1&ns4020=1",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=https%3A%2F%2Fbahai.works%2FStar_of_the_West%2FVolume_%2B%2B%2B%2FIssue_%40%40%40%2FText%23pg~~~&search=%s"
+        },
+        {
+            "shortcut": "sows",
+            "page": "https://bahai.works/index.php?search=%s+prefix%3AStar_of_the_West%2F&ns0=1&ns4000=1&ns4010=1&ns4020=1"
+        },
+        {
+            "shortcut": "bnews",
+            "search": "https://bahai.works/index.php?search=%s+prefix%3ABaha%27i_News%2F&ns0=1&ns4000=1&ns4010=1&ns4020=1",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=https%3A%2F%2Fbahai.works%2FBaha%27i_News%2FIssue_%2B%2B%2B%2FText%23pg%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "bnewss",
+            "page": "https://bahai.works/index.php?search=%s+prefix%3ABaha%27i_News%2F&ns0=1&ns4000=1&ns4010=1&ns4020=1"
+        },
+        {
+            "shortcut": "bcommons",
+            "wiki": true,
+            "page": "https://bahai.media/%s"
+        },
+        {
+            "shortcut": "bcommonss",
+            "wiki": true,
+            "page": "https://bahai.media/index.php?search=insource%3A%s&title=Special%3ASearch&fulltext=Search"
+        },
+        {
+            "shortcut": "w",
+            "secular": true,
+            "wiki": true,
+            "page": "https://en.wikipedia.org/wiki/%s"
+        },
+        {
+            "shortcut": "ws",
+            "secular": true,
+            "wiki": true,
+            "page": "https://en.wikipedia.org/w/index.php?search=insource%3A%s&title=Special%3ASearch&go=Go&ns0=1"
+        },
+        {
+            "shortcut": "bls",
+            "site": true,
+            "page": "https://www.google.com/search?q=site%3Abahai-library.com+%s&ie=utf-8&oe=utf-8&client=firefox-b-1-ab&gfe_rd=cr&dcr=0&ei=4Pp-WrqUF8uhX5DPrvAL"
+        },
+        {
+            "shortcut": "bl",
+            "site": true,
+            "page": "https://bahai-library.com/%s"
+        },
+        {
+            "shortcut": "blg",
+            "site": true,
+            "page": "https://www.google.com/custom?q=%s&sa=++Go%21+&cof=LW%3A561%3BBIMG%3Abahai-library.com%2Fback015.gif%3BL%3Abahai-library.com%2Fgraphics%2Flogo.gif%3BLC%3A%23004834%3BLH%3A44%3BAH%3Acenter%3BVLC%3A%23BF1000%3BGL%3A0%3BS%3Abahai-library.com%3BAWFID%3Af35eea7fb2567a11%3B&domains=bahai-library.com&sitesearch=bahai-library.com"
+        },
+        {
+            "shortcut": "b",
+            "site": true,
+            "page": "https://www.google.com/search?q=site%3Abahai-library.com+%s&ie=utf-8&oe=utf-8&client=firefox-b-1-ab&gfe_rd=cr&dcr=0&ei=4Pp-WrqUF8uhX5DPrvAL"
+        },
+        {
+            "shortcut": "abl",
+            "page": "https://bahai-library.com/writings/abdulbaha/abl/abdulbahalondon.html#%s"
+        },
+        {
+            "shortcut": "adj",
+            "page": "https://bahai-library.com/writings/shoghieffendi/adj/adj.html#%s"
+        },
+        {
+            "shortcut": "adp",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fabdulbaha_divine_philosophy%26chapter%3D%2B%2B%2B%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "man",
+            "year": "https://bahai-library.com/writings/shoghieffendi/antipodes/%s.html",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fshoghieffendi%2Fantipodes%2Fantipodes.html%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "manyear",
+            "page": "https://bahai-library.com/writings/shoghieffendi/antipodes/%s.html"
+        },
+        {
+            "shortcut": "aro",
+            "page": "https://bahai-library.com/writings/shoghieffendi/arohanui/aro.html#%s"
+        },
+        {
+            "shortcut": "ba",
+            "page": "https://bahai-library.com/writings/shoghieffendi/ba/ba-all.html#%s"
+        },
+        {
+            "shortcut": "bib",
+            "priorReligion": true,
+            "page": "http://bible.gospelcom.net/cgi-bin/bible?passage=%s"
+        },
+        {
+            "shortcut": "bibs",
+            "priorReligion": true,
+            "page": "http://bible.gospelcom.net/cgi-bin/bible?SearchType=AND&language=english&version=NIV&searchpage=0&search=%s&x=0&y=0"
+        },
+        {
+            "shortcut": "bk",
+            "page": "https://bahai-library.com/books/bahiyyih.khanum/bkall.html#%s"
+        },
+        {
+            "shortcut": "cl",
+            "page": "https://bahai-library.com/uhj_century_light&chapter=all#pg%s"
+        },
+        {
+            "shortcut": "blaze",
+            "page": "https://bahai-library.com/compilation_japan_turn_ablaze&chapter=all#pg%s"
+        },
+        {
+            "shortcut": "bne",
+            "page": "https://bahai-library.com/books/new.era/bne.html#%s"
+        },
+        {
+            "shortcut": "bng",
+            "page": "https://bahai-library.com/books/bahainews.guardian/index.html#%s"
+        },
+        {
+            "shortcut": "bp",
+            "page": "https://bahai-library.com/compilations/prayers/bp.html#%s"
+        },
+        {
+            "shortcut": "bs",
+            "sel": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fcompilations%2Fbahai.scriptures%2F%2B%2B%2B.html%23no%40%40%40&search=%s",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fcompilations%2Fbahai.scriptures%2F%2B%2B%2B.html%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "bss",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fcompilations%2Fbahai.scriptures%2F%2B%2B%2B.html%23no%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "bwf",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fcompilations%2Fbwf%2Fbwf%2B%2B%2B.html%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "bk",
+            "page": "https://bahai-library.com/books/bahiyyih.khanum/bkall.html#%s"
+        },
+        {
+            "shortcut": "cf",
+            "page": "https://bahai-library.com/writings/shoghieffendi/cf/cfall.html#%s"
+        },
+        {
+            "shortcut": "db",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fbooks%2Fdawnbreakers%2Fchapters%2F%2B%2B%2B.html%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "dg",
+            "page": "https://bahai-library.com/writings/shoghieffendi/dg/dgall.html#%s"
+        },
+        {
+            "shortcut": "dnd",
+            "page": "https://bahai-library.com/writings/shoghieffendi/dnd/dndall.html#%s"
+        },
+        {
+            "shortcut": "dor",
+            "sel": "https://bahai-library.com/compilation_days_remembrance#sec%s",
+            "page": "https://bahai-library.com/compilation_days_remembrance#sec%s"
+        },
+        {
+            "shortcut": "esw",
+            "page": "https://bahai-library.com/bahaullah_epistle_son_wolf#%s"
+        },
+        {
+            "shortcut": "fwu",
+            "page": "https://bahai-library.com/writings/abdulbaha/fwu/fwu.html#%s"
+        },
+        {
+            "shortcut": "gdm",
+            "page": "https://bahai-library.com/bahaullah_gems_divine_mysteries#%s"
+        },
+        {
+            "shortcut": "gpb",
+            "page": "https://bahai-library.com/writings/shoghieffendi/gpb/gpball.html#%s"
+        },
+        {
+            "shortcut": "gwb",
+            "sel": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fgwb%2F%40%40%40.html&search=%s",
+            "page": "https://bahai-library.com/writings/bahaullah/gwb/gleaningsall.html#%s"
+        },
+        {
+            "shortcut": "gwbs",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fgwb%2F%40%40%40.html&search=%s"
+        },
+        {
+            "shortcut": "he",
+            "page": "https://bahai-library.com/writings/shoghieffendi/he/index.html#%s"
+        },
+        {
+            "shortcut": "hw",
+            "arabic": "https://bahai-library.com/writings/bahaullah/hw/arabic/%s.html",
+            "persian": "https://bahai-library.com/writings/bahaullah/hw/persian/%s.html",
+            "page": "https://bahai-library.com/writings/bahaullah/hw/hw-all.html#%s"
+        },
+        {
+            "shortcut": "hwa",
+            "page": "https://bahai-library.com/writings/bahaullah/hw/arabic/%s.html"
+        },
+        {
+            "shortcut": "hwp",
+            "page": "https://bahai-library.com/writings/bahaullah/hw/persian/%s.html"
+        },
+        {
+            "shortcut": "ka",
+            "synopsis": "https://bahai-library.com/bahaullah_synopsis_codification#%s",
+            "note": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#note%s",
+            "question": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#q%s",
+            "par": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#par%s",
+            "page": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#%s"
+        },
+        {
+            "shortcut": "kan",
+            "page": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#note%s"
+        },
+        {
+            "shortcut": "kap",
+            "page": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#par%s"
+        },
+        {
+            "shortcut": "kaq",
+            "page": "https://bahai-library.com/writings/bahaullah/aqdas/kaall.html#q%s"
+        },
+        {
+            "shortcut": "ki",
+            "par": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fiqan%2Fiq-%2B%2B%2B.htm%23p%40%40%40&search=%s",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fiqan%2Fiq-%2B%2B%2B.htm%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "kip",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fiqan%2Fiq-%2B%2B%2B.htm%23p%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "lanz",
+            "page": "https://bahai-library.com/writings/shoghieffendi/lanz/index.html#%s"
+        },
+        {
+            "shortcut": "ldg1",
+            "page": "https://bahai-library.com/writings/shoghieffendi/ldg/ldg1.html#%s"
+        },
+        {
+            "shortcut": "ldg2",
+            "page": "https://bahai-library.com/writings/shoghieffendi/ldg/ldg2.html#%s"
+        },
+        {
+            "shortcut": "logn",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fhornby_lights_guidance%26chapter%3D%2B%2B%2B%23n%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "log",
+            "num": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fhornby_lights_guidance%26chapter%3D%2B%2B%2B%23n%40%40%40&search=%s",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fhornby_lights_guidance%26chapter%3D%2B%2B%2B%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "ma",
+            "page": "https://bahai-library.com/writings/shoghieffendi/ma/maall.html#%s"
+        },
+        {
+            "shortcut": "mbw",
+            "page": "https://bahai-library.com/writings/shoghieffendi/mbw/mbwall.html#%s"
+        },
+        {
+            "shortcut": "mc",
+            "page": "https://bahai-library.com/writings/shoghieffendi/mc/mcall.html#%s"
+        },
+        {
+            "shortcut": "mc2",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fshoghieffendi_messages_canada_1999%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "msei",
+            "page": "https://bahai-library.com/shoghieffendi_messages_indian_subcontinent#pg%s"
+        },
+        {
+            "shortcut": "mf",
+            "page": "https://bahai-library.com/writings/abdulbaha/mf/mf.html#%s"
+        },
+        {
+            "shortcut": "pass",
+            "page": "https://bahai-library.com/books/passing.html#%s"
+        },
+        {
+            "shortcut": "pb",
+            "page": "https://bahai-library.com/writings/bahaullah/pb/pball.html#%s"
+        },
+        {
+            "shortcut": "pdc",
+            "par": "https://bahai-library.com/writings/shoghieffendi/pdc/pdicall.html#par%s",
+            "page": "https://bahai-library.com/writings/shoghieffendi/pdc/pdicall.html#%s"
+        },
+        {
+            "shortcut": "pdcp",
+            "page": "https://bahai-library.com/writings/shoghieffendi/pdc/pdicall.html#par%s"
+        },
+        {
+            "shortcut": "pm",
+            "sel": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fpm%2F%40%40%40.html&search=%s",
+            "page": "https://bahai-library.com/writings/bahaullah/pm/pm.html#%s"
+        },
+        {
+            "shortcut": "pms",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fbahaullah%2Fpm%2F%40%40%40.html&search=%s"
+        },
+        {
+            "shortcut": "pta",
+            "page": "https://bahai-library.com/writings/abdulbaha/pt/pt.html#%s"
+        },
+        {
+            "shortcut": "pup",
+            "page": "https://bahai-library.com/writings/abdulbaha/pup/pup.html#%s"
+        },
+        {
+            "shortcut": "qur",
+            "priorReligion": true,
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fquran%2F%2B%2B%2B.html%23Paragraph%2520%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "saq",
+            "chapter": "https://bahai-library.com/abdulbaha_some_answered_questions#chapter%s",
+            "par": "https://bahai-library.com/abdulbaha_some_answered_questions#par%s",
+            "page": "https://bahai-library.com/writings/abdulbaha/saq/saqall.html#%s"
+        },
+        {
+            "shortcut": "saqc",
+            "page": "https://bahai-library.com/abdulbaha_some_answered_questions#chapter%s"
+        },
+        {
+            "shortcut": "saqp",
+            "page": "https://bahai-library.com/abdulbaha_some_answered_questions#par%s"
+        },
+        {
+            "shortcut": "sdc",
+            "page": "https://bahai-library.com/abdulbaha_secret_divine_civilization#%s"
+        },
+        {
+            "shortcut": "slh",
+            "page": "https://bahai-library.com/writings/bahaullah/slh/slh.html#%s"
+        },
+        {
+            "shortcut": "sv",
+            "page": "https://bahai-library.com/writings/bahaullah/sv/sv.toc.html#%s"
+        },
+        {
+            "shortcut": "swab",
+            "sel": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fabdulbaha%2Fswab%2F%40%40%40.html&search=%s",
+            "page": "https://bahai-library.com/writings/abdulbaha/swab/swaball.html#%s"
+        },
+        {
+            "shortcut": "swabs",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fabdulbaha%2Fswab%2F%40%40%40.html&search=%s"
+        },
+        {
+            "shortcut": "swb",
+            "page": "https://bahai-library.com/writings/bab/swb/swball.html#%s"
+        },
+        {
+            "shortcut": "syn",
+            "page": "https://bahai-library.com/bahaullah_synopsis_codification#%s"
+        },
+        {
+            "shortcut": "tu",
+            "page": "https://bahai-library.com/bahaullah_tabernacle_unity#pg%s"
+        },
+        {
+            "shortcut": "tab",
+            "page": "https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fwritings%2Fabdulbaha%2Ftab%2F%2B%2B%2B.html%23%40%40%40&search=%s"
+        },
+        {
+            "shortcut": "taf",
+            "page": "https://bahai-library.com/writings/abdulbaha/taf/%s.html"
+        },
+        {
+            "shortcut": "tb",
+            "page": "https://bahai-library.com/writings/bahaullah/tb/tb.html#%s"
+        },
+        {
+            "shortcut": "tdp",
+            "page": "https://bahai-library.com/writings/abdulbaha/tdp/tdpall.html#%s"
+        },
+        {
+            "shortcut": "tdh",
+            "page": "https://bahai-library.com/shoghieffendi_this_decisive_hour#%s"
+        },
+        {
+            "shortcut": "tn",
+            "page": "https://bahai-library.com/abdulbaha_travellers_narrative#%s"
+        },
+        {
+            "shortcut": "ud",
+            "page": "https://bahai-library.com/shoghieffendi_unfolding_destiny#%s"
+        },
+        {
+            "shortcut": "wob",
+            "page": "https://bahai-library.com/writings/shoghieffendi/wob/woball.html#%s"
+        },
+        {
+            "shortcut": "wt",
+            "page": "https://bahai-library.com/writings/abdulbaha/wt/wtall.html#%s"
+        }
+    ],
+    "ar": [
+    ],
+    "fa": [
+    ]
+}
